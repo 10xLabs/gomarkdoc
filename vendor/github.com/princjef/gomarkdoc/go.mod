@@ -1,4 +1,4 @@
-module github.com/10xLabs/gomarkdoc
+module github.com/princjef/gomarkdoc
 
 go 1.16
 
@@ -6,7 +6,6 @@ require (
 	github.com/Microsoft/go-winio v0.5.0 // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/cheggaaa/pb/v3 v3.0.8 // indirect
-	github.com/fatih/camelcase v1.0.0
 	github.com/fatih/color v1.11.0 // indirect
 	github.com/go-git/go-billy/v5 v5.3.1 // indirect
 	github.com/go-git/go-git/v5 v5.3.0
@@ -18,7 +17,6 @@ require (
 	github.com/onsi/ginkgo v1.14.2 // indirect
 	github.com/onsi/gomega v1.10.3 // indirect
 	github.com/pelletier/go-toml v1.9.1 // indirect
-	github.com/princjef/gomarkdoc v0.2.1
 	github.com/princjef/mageutil v0.1.0
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/sergi/go-diff v1.2.0 // indirect

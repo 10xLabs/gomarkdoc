@@ -128,6 +128,13 @@ github.com/mitchellh/mapstructure
 # github.com/pelletier/go-toml v1.9.1
 ## explicit
 github.com/pelletier/go-toml
+# github.com/princjef/gomarkdoc v0.2.1
+## explicit
+github.com/princjef/gomarkdoc
+github.com/princjef/gomarkdoc/format
+github.com/princjef/gomarkdoc/format/formatcore
+github.com/princjef/gomarkdoc/lang
+github.com/princjef/gomarkdoc/logger
 # github.com/princjef/mageutil v0.1.0
 ## explicit
 github.com/princjef/mageutil/bintool
