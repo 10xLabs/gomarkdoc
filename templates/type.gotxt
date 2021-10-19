@@ -1,4 +1,4 @@
-{{- codeHref .Location | link (escape .Name) | printf "type %s" | rawHeader .Level -}}
+{{- codeHref .Location | link (escape .Name) | printf "%s" | rawHeader .Level -}}
 
 {{- template "doc" .Doc -}}
 
@@ -23,4 +23,3 @@
 {{- range .Methods -}}
 	{{- template "func" . -}}
 {{- end -}}
-

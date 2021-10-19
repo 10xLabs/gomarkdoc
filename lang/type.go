@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"go/doc"
 	"strings"
+
+	"github.com/fatih/camelcase"
 )
 
 // Type holds documentation information for a type declaration.
@@ -23,18 +25,27 @@ func NewType(cfg *Config, doc *doc.Type, examples []*doc.Example) *Type {
 // Level provides the default level that headers for the type should be
 // rendered.
 func (typ *Type) Level() int {
-	return typ.cfg.Level
+	if typ.Main() {
+		return 2
+	}
+	return 4
 }
 
 // Name provides the name of the type
 func (typ *Type) Name() string {
-	return typ.doc.Name
+	s := camelcase.Split(typ.doc.Name)
+	return strings.Join(s, " ")
+}
+
+func (typ *Type) Main() bool {
+	return !strings.Contains(typ.doc.Name, "Data")
 }
 
 // Title provides a formatted name suitable for use in a header identifying the
 // type.
 func (typ *Type) Title() string {
-	return fmt.Sprintf("type %s", typ.doc.Name)
+	s := camelcase.Split(typ.doc.Name)
+	return strings.Join(s, " ")
 }
 
 // Location returns a representation of the node's location in a file within a
