@@ -18,7 +18,6 @@ require (
 	github.com/onsi/ginkgo v1.14.2 // indirect
 	github.com/onsi/gomega v1.10.3 // indirect
 	github.com/pelletier/go-toml v1.9.1 // indirect
-	github.com/princjef/gomarkdoc v0.2.1
 	github.com/princjef/mageutil v0.1.0
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/sergi/go-diff v1.2.0 // indirect

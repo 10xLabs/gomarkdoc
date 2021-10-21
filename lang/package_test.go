@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/10xLabs/gomarkdoc/lang"
+	"github.com/10xLabs/gomarkdoc/logger"
 	"github.com/matryer/is"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
 )
 
 func TestPackage_strings(t *testing.T) {

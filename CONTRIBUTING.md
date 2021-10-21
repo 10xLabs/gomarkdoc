@@ -43,8 +43,7 @@ the documentation? You should open a Pull Request! Some steps to follow:
     your code. Any failures here will cause your pull request's continuous
     integration to fail, so it's best to catch it early.
 
-5.  Once you've pushed your code into your fork, [open a pull request][new pull
-    request] and follow the template to fill in the pull request information.
+5.  Once you've pushed your code into your fork, [open a pull request][new pull request] and follow the template to fill in the pull request information.
 
 ## Developer Setup
 
@@ -90,8 +89,8 @@ documentation for this repository has been regenerated:
 mage doc
 ```
 
-[issues]: https://github.com/princjef/gomarkdoc/issues
-[new pull request]: https://github.com/princjef/gomarkdoc/compare
+[issues]: https://github.com/10xLabs/gomarkdoc/issues
+[new pull request]: https://github.com/10xLabs/gomarkdoc/compare
 [github reactions]: https://blog.github.com/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/
 [github fork]: https://help.github.com/articles/fork-a-repo
 [golang]: https://golang.org/

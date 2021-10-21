@@ -1,4 +1,4 @@
 build:
 	go clean
 	./gentmpl.sh templates templates
-	cd cmd/gomarkdoc && go install
+	cd cmd/gomarkdoc && go install 

@@ -3,9 +3,9 @@ package lang_test
 import (
 	"testing"
 
+	"github.com/10xLabs/gomarkdoc/lang"
+	"github.com/10xLabs/gomarkdoc/logger"
 	"github.com/matryer/is"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
 )
 
 func TestFunc_netHttpResponseWriter(t *testing.T) {

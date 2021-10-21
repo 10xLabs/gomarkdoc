@@ -19,10 +19,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/princjef/gomarkdoc"
-	"github.com/princjef/gomarkdoc/format"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/10xLabs/gomarkdoc"
+	"github.com/10xLabs/gomarkdoc/format"
+	"github.com/10xLabs/gomarkdoc/lang"
+	"github.com/10xLabs/gomarkdoc/logger"
 )
 
 // PackageSpec defines the data available to the --output option's template.
